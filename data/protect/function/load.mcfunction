@@ -2,4 +2,4 @@
 function protect:tag
 function protect:immortalize
 
-say Immortal pets datapack is loaded. All tamed pets are now protected. 
+say Immortal pets v1.0 datapack is loaded. All tamed pets are now protected. 

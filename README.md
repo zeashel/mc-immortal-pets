@@ -11,7 +11,7 @@ Very simple and lightweight minecraft datapack that makes all tamed pets (both e
 - They are immune to (and wont even show hit animations/sounds) from fall damage, fire damage, explosions, player attacks, etc. and even the void.
 - If the tamed pet falls into the void, it will be teleported to `~ 100 ~` (the same location but on Y=100).
 - Existing tamed pets will become immortal, meaning if you previously started a world/server without this datapack, all of your pets will become immortal.
-- Conversely, newly tamed pets will also instantly receiver immortality.
+- Newly tamed pets will also instantly receive immortality.
 
 ## Caveats
 

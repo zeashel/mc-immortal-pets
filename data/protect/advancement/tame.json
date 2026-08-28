@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "tamed_pet": {
+            "trigger": "minecraft:tame_animal"
+        }
+    },
+    "rewards": {
+        "function": "protect:on_pet_tame"
+    }
+}

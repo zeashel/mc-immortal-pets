@@ -1,6 +1,6 @@
 {
     "pack": {
-        "description": "Immortal Pets by zeashel",
+        "description": "Immortal Pets by zeashel. Makes all tamed pets immortal, protects them from any damage, including the void.",
         "min_format": [101, 1],
         "max_format": 101
     }

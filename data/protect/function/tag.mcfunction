@@ -1,4 +1,4 @@
-# tags all pets with Owner NBT
+# tags all pets with Owner NBT with a custom immortal_pets tag
 execute as @e[type=minecraft:wolf] if data entity @s Owner run tag @s add immortal_pets
 execute as @e[type=minecraft:cat] if data entity @s Owner run tag @s add immortal_pets
 execute as @e[type=minecraft:parrot] if data entity @s Owner run tag @s add immortal_pets

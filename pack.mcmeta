@@ -1,7 +1,7 @@
 {
     "pack": {
-        "description": "Immortal Pets by zeashel. Makes all tamed pets immortal, protects them from any damage, including the void.",
+        "description": "Immortal Pets by zeashel for minecraft 26.1 to 26.2. Makes all tamed pets immortal, protects them from any damage, including the void.",
         "min_format": [101, 1],
-        "max_format": 101
+        "max_format": [107, 1]
     }
 }

@@ -21,7 +21,8 @@ Very simple and lightweight minecraft datapack that makes all tamed pets (both e
     ```mcfunction
     execute as @e[tag=immortal_pets] at @s if entity @s[y=-3,dy=-9999] run function voidtp:tp_to_safe_loc
     ```
-- The only way tamed pets can be killed is by the `/kill` command or by removing the datapack from your world/server.
+- The only way tamed pets can be killed is by the `/kill` command.
+- Pets will remain immortal even after the datapack is uninstalled. To uninstall properly and make tamed pets mortal again, run `/function immortal_pets:uninstall`, then remove the datapack from your world/server folder.
 - Creative mode players can still hit tamed pets (they show the hurt/hit animation/sound) but will not be able to kill them and they will not lose HP.
 
 ## Installation

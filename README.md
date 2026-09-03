@@ -19,7 +19,7 @@ Very simple and lightweight minecraft datapack that makes all tamed pets (both e
 - **!!! The void protection only applies to regular worlds that go down to `y=-64` !!!**
     - To make it compatible with custom worlds (e.g. super flat), change the `y` level in `data/voidtp/function/tick.mcfunction`
     ```mcfunction
-    execute as @e[tag=immortal_pets] at @s if entity @s[y=-3,dy=-9999] run function voidtp:tp_to_safe_loc
+    execute as @e[tag=zeashel_immortal_pets_hVXdIng] at @s if entity @s[y=-3,dy=-9999] run function voidtp:tp_to_safe_loc
     ```
 - The only way tamed pets can be killed is by the `/kill` command.
 - Creative mode players can still hit tamed pets (they show the hurt/hit animation/sound) but will not be able to kill them and they will not lose HP.
@@ -37,5 +37,5 @@ Very simple and lightweight minecraft datapack that makes all tamed pets (both e
 
 Pets will remain immortal to regular damage (with the exception of void protection) even after the datapack is uninstalled. So follow these steps before removing the datapack.
 
-- To uninstall properly and make tamed pets mortal again, run `/function immortal_pets:uninstall`.
+- To uninstall properly and make tamed pets mortal again, run `/function zeashel_immortal_pets:uninstall`.
 - Then remove the datapack from your world/server folder.

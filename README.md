@@ -19,6 +19,7 @@ Very simple and lightweight minecraft datapack that makes all tamed pets (both e
 - **!!! The void protection only applies to regular worlds that go down to `y=-64` !!!**
     - To make it compatible with custom worlds (e.g. super flat), change the `y` level in `data/voidtp/function/tick.mcfunction`
     ```mcfunction
+    # for example, if your world Y level only goes down to -3
     execute as @e[tag=zeashel_immortal_pets_hVXdIng] at @s if entity @s[y=-3,dy=-9999] run function voidtp:tp_to_safe_loc
     ```
 - The only way tamed pets can be killed is by the `/kill` command.

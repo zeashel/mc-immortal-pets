@@ -5,6 +5,6 @@
         }
     },
     "rewards": {
-        "function": "protect:on_pet_tame"
+        "function": "zeashel_immortal_pets:on_pet_tame"
     }
 }

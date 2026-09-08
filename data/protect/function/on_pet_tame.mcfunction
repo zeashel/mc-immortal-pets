@@ -1,5 +1,0 @@
-# when new pet is tamed, rerun load functions
-advancement revoke @s only protect:tame
-
-function protect:tag
-function protect:immortalize

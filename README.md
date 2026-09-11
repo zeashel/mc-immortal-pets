@@ -1,4 +1,4 @@
-# Minecraft Immortal Pets Data Pack
+# Minecraft Immortal Pets
 
 Very simple and lightweight minecraft datapack that makes all tamed pets (both existing and new ones) completely immortal and unkillable. They will be protected from all types of damage, including the void, and you won't even be able to hit them or see their hurt animation/sounds thanks to the `Invulnerable` NBT.
 
